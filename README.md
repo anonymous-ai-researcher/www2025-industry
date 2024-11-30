@@ -1,15 +1,3 @@
-```diff
-- Please find above an extended version of the paper including all missing proofs and the empirical results.
-
-- Some typographical errors in the original text are corrected here:
-- Original Text:
-- Page 2: This paper focuses on the computation of syntax-restricted modules...
-- Page 3: Uppercase letters A and B denote concept names. Uppercase letters C and subsequent letter in the alphabet represent general concepts.
-
-- Corrected Text:
-- Page 2: This paper focuses on the computation of signature-restricted modules...
-- Page 3: Uppercase letter A denotes concept names. Uppercase letters B, subsequent letters in the alphabet, and the Greek letters Φ and Ψ denote general concepts.
-```
 ## Environment requirement
 
 * JDK 1.8

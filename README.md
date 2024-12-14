@@ -35,7 +35,7 @@
 
 ## Run of the OntoLdiff tool
 
-* To run the logical difference detection method, go to /src/forgetting/Forgetter.class and call the method: 
+* To run the logical difference detection method, go to /src/forgetting/LDiff.java and call the method: 
 
   ```java
   public void compute_LDiff(OWLOntology onto_1, OWLOntology onto_2, String path)

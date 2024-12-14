@@ -35,11 +35,13 @@
 
 ## Run of the OntoLdiff tool
 
-* The input are two ELIH-ontologies to be compared (onto_1, onto_2), and OntoLDiff is implemented in Java, so before running it, please make sure that you have Java Runtime Environment (JRE) installed on your computer.
+* To run the logical difference detection method, go to /src/forgetting/Forgetter.class and call the method: 
 
-* We provide the source code for OntoLDiff, which can be downloaded from here, and compiled and run by typing in command line or with a Java IDE such as Eclipse. The main() method is situated in LDiff.java under the forgetting folder.
+  ```java
+  public void compute_LDiff(OWLOntology onto_1, OWLOntology onto_2, String path)
+  ```
 
-* The input are O1, O2 and a path specifying the location where you want the output to be saved. The output are a set of witnesses, a set of explicit witnesses and a set of implicit witnesses, saved as owl.xml files; see the following example (please adjust it to your own operating environment, i.e., windows, linux or Mac).
+* The input are two ELIH-ontologies to be compared (onto_1, onto_2), and a path specifying the location where you want the output to be saved. The output are a set of witnesses, a set of explicit witnesses and a set of implicit witnesses, saved as owl.xml files; see the following example (please adjust it to your own operating environment, i.e., windows, linux or Mac).
 
 * O1: file:///C:/Users/XXX/Desktop/snomed_ct/snomed_ct_australian.owl
 

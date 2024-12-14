@@ -41,7 +41,7 @@
   public void compute_LDiff(OWLOntology onto_1, OWLOntology onto_2, String path)
   ```
 
-* The input are two ELIH-ontologies to be compared (onto_1, onto_2), and a path specifying the location where you want the output to be saved. The output are a set of witnesses, a set of explicit witnesses and a set of implicit witnesses, saved as owl.xml files; see the following example (please adjust it to your own operating environment, i.e., windows, linux or Mac).
+* The input are two ELIH-ontologies to be compared (onto_1, onto_2), and a path specifying the location where you want the output to be saved. The output are a set of witnesses, a set of explicit witnesses (contained) and a set of implicit witnesses (derived), saved as owl.xml files; see the following example (please adjust it to your own operating environment, i.e., windows, linux or Mac).
 
 * Onto_1: file:///C:/Users/XXX/Desktop/snomed_ct/snomed_ct_australian.owl
 

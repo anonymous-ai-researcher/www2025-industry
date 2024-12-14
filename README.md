@@ -43,8 +43,8 @@
 
 * The input are two ELIH-ontologies to be compared (onto_1, onto_2), and a path specifying the location where you want the output to be saved. The output are a set of witnesses, a set of explicit witnesses and a set of implicit witnesses, saved as owl.xml files; see the following example (please adjust it to your own operating environment, i.e., windows, linux or Mac).
 
-* O1: file:///C:/Users/XXX/Desktop/snomed_ct/snomed_ct_australian.owl
+* Onto_1: file:///C:/Users/XXX/Desktop/snomed_ct/snomed_ct_australian.owl
 
-* O2: file:///C:/Users/XXX/Desktop/snomed_ct/snomed_ct_intl_20170731.owl
+* Onto_2: file:///C:/Users/XXX/Desktop/snomed_ct/snomed_ct_intl_20170731.owl 
 
 * Path: C:\Users\XXX\Desktop\snomed_ct

@@ -33,9 +33,9 @@
 
 * An example illustrating the usage of the UI tool is included in the Forgetter.class main function.
 
-## Run of the OntoLdiff tool
+## Run of the Semantic Difference Detection Tool
 
-* To run the logical difference detection method, go to /src/forgetting/LDiff.java and call the method: 
+* To run the semantic difference method, go to /src/forgetting/LDiff.java and call the method: 
 
   ```java
   public void compute_LDiff(OWLOntology onto_1, OWLOntology onto_2, String path)
